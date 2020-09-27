@@ -1,5 +1,3 @@
-# web-formation
-
 ## Workshop
 ### HTML
   - Workshop 1 : [CV](tp-cv/index.html)
