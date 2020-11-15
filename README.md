@@ -2,9 +2,12 @@
 ### HTML
 
 #### Pré-requis :
-Tous vos TP doivent être dans le repertoire workshop comme ceci : "C:/workspace/workshop-html/"
+Tous vos TP doivent être dans le repertoire workshop comme ceci : "C:/workspace/workshop-html/" : 
 
-Créer un dossier par workshop (Ex: C:/workspace/workshop-html/tp-cv/)
+1. Créer un repertoire workspace dans C:
+2. Créer un repertoire workshop-html dans workspace
+3. Créer un dossier par workshop (Ex: C:/workspace/workshop-html/tp-cv/)
+
   - Workshop 1 : [Maquette cv](tp-cv/maquette.pdf)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter :
         - Je dois pouvoir naviguer sur les section du CV via un menu
