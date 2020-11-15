@@ -30,35 +30,61 @@ Créer un dossier par workshop (Ex: C:/workspace/workshop-html/tp-cv/)
         - Le code du style doit être copié collé dans l'en-tête de votre document HTML
         ```
         <style>
-            body {
-    	        height: 100%;
+            html {
+              font-family: sans-serif;
             }
+
+            body {
+                height: 100%;
+            }
+
+            caption {
+              caption-side: bottom;
+              text-align: right;
+            }
+
+            tbody tr:nth-child(odd) {
+                background-color: gainsboro;
+            }
+            tbody tr:nth-child(even) {
+                background-color: ghostwhite;
+            }
+
             table {
-    	        width: 100%;
-    	        border: 1px solid black;
+                table-layout: fixed;
+                width: 100%;
+                border: 1px solid black;
+                border-collapse: collapse;
             }
             tr {
-    	        background-color: #f8f6ff
+                background-color: #f8f6ff
             }
-            th,
-            td {
-    	        padding-right: 10px;
-    	        text-align: center;
-    	       border: 1px solid black;
+            th, td {
+                padding-right: 5%;
+                text-align: center;
+                border: 1px solid black;
+                letter-spacing: 1px;
             }
             th {
-    	        font-size: 18px;
-    	        color: #fff;
-    	        background-color: #393939;
-    	        padding-top: 18px;
-    	        padding-bottom: 18px;
+                font-size: 18px;
+                color: #fff;
+                background-color: #393939;
+                padding-top: 18px;
+                padding-bottom: 18px;
+                text-transform: capitalize;
+                letter-spacing: 2px;
+
             }
             td {
-    	        font-size: 18px;
-    	        color: #000000;
-    	        line-height: 1.4;
-    	        padding-top: 16px;
-    	        padding-bottom: 16px;
+                font-size: 18px;
+                color: #000000;
+                line-height: 1.4;
+                padding-top: 16px;
+                padding-bottom: 16px;
+            }
+
+            tfoot th {
+                text-align: right;
             }
         </style>
         ``` 
