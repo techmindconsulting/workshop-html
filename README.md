@@ -28,6 +28,22 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : "C:/workspace
   - Workshop 3 : [Maquette tableau des médailles](tp-medal-ranking/maquette.pdf)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
         - Le CV doit être valide W3C ( validateur HTML W3C )
+        ```
+        <style>
+            table {
+              border: 1px solid black;
+              border-collapse: collapse;
+            }
+            th, td {
+              padding: 15px;
+              text-align: left;
+            }
+          th {
+              background-color: #4CAF50;
+              color: white;
+          }
+        </style>
+        ```
   - Workshop 4 : [Maquette bon de commande](tp-purchase-order/maquette.pdf)
     - Reproduire le bon de commande en HTML et voici les critères que vous devez respecter :
         - Le code du style doit être copié collé dans l'en-tête de votre document HTML
