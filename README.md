@@ -13,7 +13,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Je dois pouvoir naviguer sur les section du CV via un menu
         - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
         - Je dois pouvoir être contacter par un simple clic sur le téléphone et l'email
-        - Le CV doit être valide W3C ( validateur HTML W3C ) https://validator.w3.org/
+        - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         - Le CV doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
               
@@ -22,12 +22,12 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Je dois pouvoir naviguer sur les section du CV via un menu
         - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
         - Je dois pouvoir être contacter par un simple clic sur le téléphone et l'email
-        - Le CV doit être valide W3C ( validateur HTML W3C ) https://validator.w3.org/
+        - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         - Le CV doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
   - Workshop 3 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
-        - Le CV doit être valide W3C ( validateur HTML W3C )
+        - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         ```
         <style>
             table {
@@ -107,7 +107,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
             }
         </style>
         ``` 
-  - Workshop 5 : [Maquette formulaire d'inscription](tp-form/index.html)
+  - Workshop 5 : Maquette formulaire d'inscription
     - Créer un formulaire d'inscription avec les champs suivants :
         - Email (obligatoire)
         - Mot de passe (obligatoire)
@@ -119,4 +119,4 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Couleur préféré
         - Photo
         - Site internet
-    - Le formulaire doit être valide W3C ( validateur HTML W3C ) https://validator.w3.org/
+    - Le formulaire doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
