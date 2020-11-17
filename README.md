@@ -22,14 +22,22 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Je dois pouvoir naviguer sur les section du CV via un menu
         - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
         - Je dois pouvoir être contacter par un simple clic sur le téléphone et l'email
-        - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
-        - Le CV doit être aussi visible sur IE11
+        - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
+        - Le document doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
         
-  - Workshop 3 : Emploi du temps (a venir)
+  - Workshop 3 : [Planning] (tp-planning/maquette.png)
+    - Reproduire la maquette en HTML et voici les critères que vous devez respecter, le style est fournit voir (tp-planning/index.html):
+        - L'image du planning doit être cliquable sur deux zones: 
+            1 - Je dois avoir la bonne structure html de tel sorte que ma page s'affiche comme sur la maquette
+            2 - La zone verte de David Tremblay, lorsque je clique elle doit me rediriger vers un lien wikipedia aleatoire sur un nouvel onglet
+            3 - La zone jaune de Julie Lebon, lorsque je clique elle doit me rediriger vers un autre lien wikipedia aleatoire sur un nouvel onglet
+         - Les images de profil doivent faire 100 pixels de largeur
+         - Le document doit être validate W3C
+
   - Workshop 4 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
-        - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
+        - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         ```
         <style>
             table {
