@@ -25,7 +25,9 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         - Le CV doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
-  - Workshop 3 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
+        
+  - Workshop 3 : Emploi du temps (a venir)
+  - Workshop 4 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
         - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         ```
@@ -44,7 +46,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
           }
         </style>
         ```
-  - Workshop 4 : [Maquette bon de commande](tp-purchase-order/maquette.pdf)
+  - Workshop 5 : [Maquette bon de commande](tp-purchase-order/maquette.pdf)
     - Reproduire le bon de commande en HTML et voici les critères que vous devez respecter :
         - Le code du style doit être copié collé dans l'en-tête de votre document HTML
         ```
@@ -107,7 +109,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
             }
         </style>
         ``` 
-  - Workshop 5 : Maquette formulaire d'inscription
+  - Workshop 6 : Maquette formulaire d'inscription
     - Créer un formulaire d'inscription avec les champs suivants :
         - Email (obligatoire)
         - Mot de passe (obligatoire)
