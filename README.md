@@ -22,12 +22,81 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Je dois pouvoir naviguer sur les section du CV via un menu
         - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
         - Je dois pouvoir être contacter par un simple clic sur le téléphone et l'email
-        - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
-        - Le CV doit être aussi visible sur IE11
+        - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
+        - Le document doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
-  - Workshop 3 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
+        
+  - Workshop 3 : [Planning](tp-planning/maquette.png)
+    - Reproduire la maquette en HTML et voici les critères que vous devez respecter, le style est fournit voir [fichier html](tp-planning/index.html):
+        - L'image du planning doit être cliquable sur deux zones: 
+            1 - Je dois avoir la bonne structure html de tel sorte que ma page s'affiche comme sur la maquette
+            2 - La zone verte de David Tremblay, lorsque je clique elle doit me rediriger vers un lien wikipedia aleatoire sur un nouvel onglet
+            3 - La zone jaune de Julie Lebon, lorsque je clique elle doit me rediriger vers un autre lien wikipedia aleatoire sur un nouvel onglet
+         - Les images de profil doivent faire 100 pixels de largeur
+         - Le document doit être validate W3C
+
+  - Workshop 4 : [Lecteur vidéo](tp-player/maquette.jpg)
+    - Reproduire la maquette en HTML.
+    Copier coller le style dans la balise <head></head> 
+    ```
+            <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            html {
+                font-family: "Roboto", sans-serif;
+            }
+
+            video {
+                outline: none;
+            }
+            
+            section {
+                margin: 32px;
+                width: 640px;
+            }
+
+            h1 {
+                margin: 16px 0;
+            }
+
+            p {
+                padding-bottom: 16px;
+            }
+
+            h1 + p {
+                color: grey;
+                font-size: medium;
+                border-bottom: 1px solid lightgrey;
+            }
+
+            h2 {
+                margin-top: 8px;
+                font-size: 14px;
+            }
+
+            h3 {
+                margin: 12px 0;
+                font-size: 12px;
+            }
+            
+            div.description {                
+                line-height: 1.4rem;
+            }
+        </style>
+    ```
+    - Voici les critères que vous devez respecter :
+        - Je dois pouvoir afficher une video qui ne démarre pas automatique.
+        - Je dois pouvoir voir la vignette de la vidéo
+        - Je dois pouvoir gérer le format mp4 et ogg
+        - Je dois pouvoir voir un message d'avertissment si le format de la vidéo n'est pas supporté
+        - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
+  
+  - Workshop 5 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
-        - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
+        - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         ```
         <style>
             table {
@@ -44,7 +113,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
           }
         </style>
         ```
-  - Workshop 4 : [Maquette bon de commande](tp-purchase-order/maquette.pdf)
+  - Workshop 6 : [Maquette bon de commande](tp-purchase-order/maquette.pdf)
     - Reproduire le bon de commande en HTML et voici les critères que vous devez respecter :
         - Le code du style doit être copié collé dans l'en-tête de votre document HTML
         ```
@@ -107,7 +176,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
             }
         </style>
         ``` 
-  - Workshop 5 : Maquette formulaire d'inscription
+  - Workshop 7 : Maquette formulaire d'inscription
     - Créer un formulaire d'inscription avec les champs suivants :
         - Email (obligatoire)
         - Mot de passe (obligatoire)
