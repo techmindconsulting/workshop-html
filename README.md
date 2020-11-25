@@ -35,7 +35,65 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
          - Les images de profil doivent faire 100 pixels de largeur
          - Le document doit être validate W3C
 
-  - Workshop 4 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
+  - Workshop 4 : [Lecteur vidéo](tp-player/maquette.png)
+    - Reproduire la maquette en HTML.
+    Copier coller le style dans la balise <head></head> 
+    ```
+            <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+
+            html {
+                font-family: "Roboto", sans-serif;
+            }
+
+            video {
+                outline: none;
+            }
+            
+            section {
+                margin: 32px;
+                width: 640px;
+            }
+
+            h1 {
+                margin: 16px 0;
+            }
+
+            p {
+                padding-bottom: 16px;
+            }
+
+            h1 + p {
+                color: grey;
+                font-size: medium;
+                border-bottom: 1px solid lightgrey;
+            }
+
+            h2 {
+                margin-top: 8px;
+                font-size: 14px;
+            }
+
+            h3 {
+                margin: 12px 0;
+                font-size: 12px;
+            }
+            
+            div.description {                
+                line-height: 1.4rem;
+            }
+        </style>
+    ```
+    - Voici les critères que vous devez respecter :
+        - Je dois pouvoir afficher une video qui ne démarre pas automatique.
+        - Je dois pouvoir voir la vignette de la vidéo
+        - Je dois pouvoir gérer le format mp4 et ogg
+        - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
+  
+  - Workshop 5 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         ```
@@ -54,7 +112,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
           }
         </style>
         ```
-  - Workshop 5 : [Maquette bon de commande](tp-purchase-order/maquette.pdf)
+  - Workshop 6 : [Maquette bon de commande](tp-purchase-order/maquette.pdf)
     - Reproduire le bon de commande en HTML et voici les critères que vous devez respecter :
         - Le code du style doit être copié collé dans l'en-tête de votre document HTML
         ```
@@ -117,7 +175,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
             }
         </style>
         ``` 
-  - Workshop 6 : Maquette formulaire d'inscription
+  - Workshop 7 : Maquette formulaire d'inscription
     - Créer un formulaire d'inscription avec les champs suivants :
         - Email (obligatoire)
         - Mot de passe (obligatoire)
