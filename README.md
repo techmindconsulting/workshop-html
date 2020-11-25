@@ -91,7 +91,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Je dois pouvoir afficher une video qui ne démarre pas automatique.
         - Je dois pouvoir voir la vignette de la vidéo
         - Je dois pouvoir gérer le format mp4 et ogg
-        - Je dois pouvoir voir un message d'avertissment si le format de la vidéo n'est pas supporté
+        - Je dois pouvoir gérér si le format de la vidéo n'est pas supporté en affichant un message à l'utilisaeur
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
   
   - Workshop 5 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
