@@ -36,7 +36,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
          - Le document doit être validate W3C
 
   - Workshop 4 : [Lecteur vidéo](tp-player/maquette.jpg)
-    - Reproduire la maquette en HTML.
+    - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger [ici](tp-player)
     Copier coller le style dans la balise <head></head> 
     ```
             <style>
