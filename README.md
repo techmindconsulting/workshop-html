@@ -30,11 +30,15 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter, les images, un fichier html vierge et le style sont fournit [Cliquez-ici](tp-planning):
         - L'image du planning doit être cliquable sur deux zones: 
             1 - Je dois avoir la bonne structure html de tel sorte que ma page s'affiche comme sur la maquette
+            
             2 - La zone verte de David Tremblay, lorsque je clique elle doit me rediriger vers un lien wikipedia aleatoire sur un nouvel onglet
+            
             3 - La zone jaune de Julie Lebon, lorsque je clique elle doit me rediriger vers un autre lien wikipedia aleatoire sur un nouvel onglet
+            
          - Les images de profil doivent faire 100 pixels de largeur
          - Le document doit être validate W3C
-
+         
+    - Rappel : Comment obtenir les coordonées ? https://www.image-map.net/
   - Workshop 4 : [Lecteur vidéo](tp-player/maquette.jpg)
     - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger [ici](tp-player)
     - Copier coller le style dans la balise <head></head> 
