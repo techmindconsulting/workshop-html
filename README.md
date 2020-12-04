@@ -8,7 +8,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
 2. Créer un repertoire workshop-html dans workspace
 3. Créer un dossier par workshop (Ex: C:/workspace/workshop-html/tp-cv/)
 
-  - Workshop 1 : [Maquette cv](tp-cv/maquette.pdf)
+  - [Workshop 1](#workshop-1) : [Maquette cv](tp-cv/maquette.pdf)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter :
         - Je dois pouvoir naviguer sur les section du CV via un menu
         - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
@@ -17,7 +17,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Le CV doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
               
-  - Workshop 2 : [Maquette recette de cuisine](tp-recipe/maquette.pdf)
+  - [Workshop 2](#workshop-2) : [Maquette recette de cuisine](tp-recipe/maquette.pdf)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter :
         - Je dois pouvoir naviguer sur les section du CV via un menu
         - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
@@ -26,8 +26,8 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Le document doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
         
-  - Workshop 3 : [Planning](tp-planning/maquette.png)
-    - Reproduire la maquette en HTML et voici les critères que vous devez respecter, le style est fournit voir [fichier html](tp-planning/index.html):
+  - [Workshop 3](#workshop-3) : [Planning](tp-planning/maquette.png)
+    - Reproduire la maquette en HTML et voici les critères que vous devez respecter, les images, un fichier html vierge et le style sont fournit [Cliquez-ici](tp-planning):
         - L'image du planning doit être cliquable sur deux zones: 
         
             1 - Je dois avoir la bonne structure html de tel sorte que ma page s'affiche comme sur la maquette
@@ -38,11 +38,12 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
             
          - Les images de profil doivent faire 100 pixels de largeur
          - Le document doit être validate W3C
-    - Rappel : comment obtenir les coordonnées des zones ? https://www.image-map.net
+         
+    - Rappel : Comment obtenir les coordonées ? https://www.image-map.net/
     
-  - Workshop 4 : [Lecteur vidéo](tp-player/maquette.jpg)
-    - Reproduire la maquette en HTML.
-    Copier coller le style dans la balise <head></head> 
+  - [Workshop 4](#workshop-4) : [Lecteur vidéo](tp-player/maquette.jpg)
+    - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger [ici](tp-player)
+    - Copier coller le style dans la balise <head></head> 
     ```
             <style>
             * {
@@ -96,10 +97,14 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Je dois pouvoir afficher une video qui ne démarre pas automatique.
         - Je dois pouvoir voir la vignette de la vidéo
         - Je dois pouvoir gérer le format mp4 et ogg
-        - Je dois pouvoir gérér si le format de la vidéo n'est pas supporté en affichant un message à l'utilisaeur
+        - Je dois pouvoir voir un message d'avertissment si le format de la vidéo n'est pas supporté
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
   
-  - Workshop 5 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
+ - [Workshop 4 Bis](#workshop-4-bis) : [Lecteur vidéo](tp-player/maquette.jpg)
+ 
+    - Dans le TP précédent, remplacer la video par une iframe youtube https://youtu.be/aqz-KE-bpKQ
+    
+  - [Workshop 5](#workshop-5) :  [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         ```
@@ -118,7 +123,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
           }
         </style>
         ```
-  - Workshop 6 : [Maquette bon de commande](tp-purchase-order/maquette.pdf)
+  - [Workshop 6](#workshop-6) :  [Maquette bon de commande](tp-purchase-order/maquette.pdf)
     - Reproduire le bon de commande en HTML et voici les critères que vous devez respecter :
         - Le code du style doit être copié collé dans l'en-tête de votre document HTML
         ```
@@ -181,7 +186,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
             }
         </style>
         ``` 
-  - Workshop 7 : Maquette formulaire d'inscription
+  - [Workshop 7](#workshop-7) : Maquette formulaire d'inscription
     - Créer un formulaire d'inscription avec les champs suivants :
         - Email (obligatoire)
         - Mot de passe (obligatoire)
