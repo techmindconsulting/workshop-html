@@ -8,7 +8,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
 2. Créer un repertoire workshop-html dans workspace
 3. Créer un dossier par workshop (Ex: C:/workspace/workshop-html/tp-cv/)
 
-  - Workshop 1 : [Maquette cv](tp-cv/maquette.pdf)
+  - [Workshop 1](#workhop-1) : [Maquette cv](tp-cv/maquette.pdf)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter :
         - Je dois pouvoir naviguer sur les section du CV via un menu
         - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
