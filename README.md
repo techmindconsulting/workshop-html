@@ -17,7 +17,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Le CV doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
               
-  - Workshop 2 : [Maquette recette de cuisine](tp-recipe/maquette.pdf)
+  - [Workshop 2](#workhop-2) : [Maquette recette de cuisine](tp-recipe/maquette.pdf)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter :
         - Je dois pouvoir naviguer sur les section du CV via un menu
         - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
@@ -26,7 +26,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Le document doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
         
-  - Workshop 3 : [Planning](tp-planning/maquette.png)
+  - [Workshop 3](#workhop-3) : [Planning](tp-planning/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter, les images, un fichier html vierge et le style sont fournit [Cliquez-ici](tp-planning):
         - L'image du planning doit être cliquable sur deux zones: 
         
@@ -40,7 +40,8 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
          - Le document doit être validate W3C
          
     - Rappel : Comment obtenir les coordonées ? https://www.image-map.net/
-  - Workshop 4 : [Lecteur vidéo](tp-player/maquette.jpg)
+    
+  - [Workshop 4](#workhop-4) : [Lecteur vidéo](tp-player/maquette.jpg)
     - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger [ici](tp-player)
     - Copier coller le style dans la balise <head></head> 
     ```
@@ -99,7 +100,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Je dois pouvoir voir un message d'avertissment si le format de la vidéo n'est pas supporté
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
   
-  - Workshop 5 : [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
+  - [Workshop 5](#workhop-5) :  [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         ```
@@ -118,7 +119,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
           }
         </style>
         ```
-  - Workshop 6 : [Maquette bon de commande](tp-purchase-order/maquette.pdf)
+  - [Workshop 6](#workhop-6) :  [Maquette bon de commande](tp-purchase-order/maquette.pdf)
     - Reproduire le bon de commande en HTML et voici les critères que vous devez respecter :
         - Le code du style doit être copié collé dans l'en-tête de votre document HTML
         ```
@@ -181,7 +182,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
             }
         </style>
         ``` 
-  - Workshop 7 : Maquette formulaire d'inscription
+  - [Workshop 7](#workhop-7) : Maquette formulaire d'inscription
     - Créer un formulaire d'inscription avec les champs suivants :
         - Email (obligatoire)
         - Mot de passe (obligatoire)
