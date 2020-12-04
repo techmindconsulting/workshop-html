@@ -38,7 +38,8 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
             
          - Les images de profil doivent faire 100 pixels de largeur
          - Le document doit être validate W3C
-
+    - Rappel : comment obtenir les coordonnées des zones ? https://www.image-map.net
+    
   - Workshop 4 : [Lecteur vidéo](tp-player/maquette.jpg)
     - Reproduire la maquette en HTML.
     Copier coller le style dans la balise <head></head> 
