@@ -26,7 +26,7 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Le document doit être aussi visible sur IE11
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
         
-  - [Workshop 3](#workhop-3) : [Planning](tp-planning/maquette.png)
+  - [Workshop 3](#workshop-3) : [Planning](tp-planning/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter, les images, un fichier html vierge et le style sont fournit [Cliquez-ici](tp-planning):
         - L'image du planning doit être cliquable sur deux zones: 
         
