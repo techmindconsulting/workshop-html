@@ -186,8 +186,9 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
             }
         </style>
         ``` 
-  - [Workshop 7](#workshop-7) : Maquette formulaire d'inscription
-    - Créer un formulaire d'inscription avec les champs suivants :
+  - [Workshop 7](#workshop-7) : Enoncé formulaire d'inscription
+    - Créer un formulaire d'inscription avec les champs suivants, regroupez les champs obligatoires avec la légende "Informations personnelles"
+        - Photo 
         - Email (obligatoire)
         - Mot de passe (obligatoire)
         - Répétez le mot de passe (obligatoire)
@@ -195,7 +196,16 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         - Prénom (obligatoire)
         - Date de naissance  (obligatoire)
         - Téléphone (obligatoire)
-        - Couleur préféré
-        - Photo
-        - Site internet
+        - Sports favori (liste déroulane avec plusieurs choix possible contenant)
+           - Football
+           - Basket
+           - Tennis
+           - Handball
+           - Badminton 
+           - Athlétisme 
+           - Rugby 
+           - Judo 
+           - Karaté 
+           - Ping Pong
+           
     - Le formulaire doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
