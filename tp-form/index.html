@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Formulaire inscription">
+  <title>Formulaire d'inscription</title>
+</head>
+<body>
+  <h1>Formulaire d'inscription</h1>
+  <form name="register" action="#" method="post">
+     <fieldset>
+        <legend>Informations personnelles</legend>
+        <div>
+          <label for="mr">Mr</label>
+          <input id="mr" type="radio" value="Mr" name="title">
+          <label for="mme">Mme</label>
+          <input id="mme" type="radio" value="Mme" name="title">
+       </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required size="27" placeholder="saidi@gmail.com" autofocus>
+        </div>
+        <div>
+          <label for="password">Mot de passe</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+         <div>
+          <label for="repeat_password">Répétez le mot de passe</label>
+          <input type="password" id="repeat_password" name="repeat_password" required>
+        </div>
+        <div>
+          <label for="lastname">Nom</label>
+          <input type="text" id="lastname" name="lastname" required placeholder="Dupont">
+        </div>
+        <div>
+          <label for="firstname">Prénom</label>
+          <input type="text" id="firstname" name="firstname" required placeholder="Jean">
+        </div>
+        <div>
+          <label for="birthday">Date de naissance</label>
+          <input type="date" id="birthday" name="birthday" required>
+        </div>
+        <div>
+         <label for="phone">Téléphone</label>
+          <input type="tel" id="phone" name="phone" required placeholder="0656434588" 
+                 pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Autre informations</legend>
+        <div>
+          <label for="photo">Photo</label>
+          <input type="file" id="photo" name="photo">
+        </div>
+        <div>
+          <label for="sport">Sport favori</label>
+          <select name="sport" id="sport">
+            <option value="">Choisir</option>
+            <optgroup label="Sport Collectifs">
+              <option value="football">Football</option>
+              <option value="basket">Basket</option>
+              <option value="handball">Handball</option>
+              <option value="rugby">Rugby</option>
+            </optgroup>
+            <optgroup label="Sport indivuel">
+              <option value="tennis">Tennis</option>
+              <option value="badminton">Badminton</option>
+              <option value="athelisme">Athetisme</option>
+              <option value="judo">Judo</option>
+              <option value="karate">Karate</option>
+              <option value="ping-pong">Ping Pong</option>
+            </optgroup>
+          </select>
+        </div>
+      </fieldset>
+      <div>
+        <input type="reset" value="Annuler">
+        <input type="submit" value="Envoyer">
+      </div>
+  </form>
+</body>
+</html>
