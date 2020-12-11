@@ -202,9 +202,9 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
                 - Football
                 - Basket
                 - Handball
-                - Badminton 
                 - Rugby 
            - Sport individuel
+                - Badminton
                 - Judo
                 - Tennis
                 - Karaté 
