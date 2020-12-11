@@ -187,25 +187,29 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
         </style>
         ``` 
   - [Workshop 7](#workshop-7) : Enoncé formulaire d'inscription
-    - Créer un formulaire d'inscription avec les champs suivants, regroupez les champs obligatoires avec la légende "Informations personnelles"
+    - Créer un formulaire d'inscription avec les champs suivants, regroupez les champs obligatoires avec la légende "Informations personnelles" et les champs non obligatoire avec la légende "Autre information"
         - Photo 
+        - Mr ou Mme (obligatoire, 1 seul choix est possible)
         - Email (obligatoire)
         - Mot de passe (obligatoire)
         - Répétez le mot de passe (obligatoire)
         - Nom (obligatoire)
         - Prénom (obligatoire)
         - Date de naissance  (obligatoire)
-        - Téléphone (obligatoire)
-        - Sports favori (liste déroulane avec plusieurs choix possible contenant)
-           - Football
-           - Basket
-           - Tennis
-           - Handball
-           - Badminton 
-           - Athlétisme 
-           - Rugby 
-           - Judo 
-           - Karaté 
-           - Ping Pong
-           
+        - Téléphone (obligatoire) doit être un numéro français (aidez vous du site https://www.html5pattern.com)
+        - Sports favori (liste déroulante avec plusieurs choix possible contenant les valeurs ci dessous avec la création de deux groupes d'options) :
+           - Sport individuel
+                - Football
+                - Basket
+                - Handball
+                - Rugby 
+           - Sport individuel
+                - Badminton
+                - Judo
+                - Tennis
+                - Karaté 
+                - Ping Pong
+                - Athlétisme 
+    - Lorsque j'arrive sur le formulaire, le focus doit automatiquement se mettre sur le champs email
+    - Ce formulaire doit comporter un bouton d'envoi et de reinitialisation
     - Le formulaire doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
