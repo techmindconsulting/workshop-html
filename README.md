@@ -214,4 +214,4 @@ Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspac
     - Ce formulaire doit comporter un bouton d'envoi et de reinitialisation
     - Le formulaire doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
     
-    - [Quiz] (#quiz): [Cliquez ici](quiz.md)
+- [Quiz] (#quiz): [Cliquez ici](quiz.md)
