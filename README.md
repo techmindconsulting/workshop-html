@@ -2,6 +2,9 @@
 ### HTML
 
 #### Pré-requis :
+
+Suivre ce cours pour un débutant en informatique : https://openclassrooms.com/fr/courses/1946386-comprendre-le-web
+
 Tous vos TP doivent être dans le repertoire workshop comme ceci : **C:/workspace/workshop-html/** : 
 
 1. Créer un repertoire workspace dans C:
