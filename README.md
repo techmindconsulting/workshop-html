@@ -24,7 +24,7 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         - Voir la recette (doit avoir un lien sur la maquette HTML voir partie 2)
         - Télécharger le document
     2. Reproduire la maquette en HTML et voici les critères que vous devez respecter :
-        - Je dois pouvoir naviguer sur les sections du de la recette via un menu
+        - Je dois pouvoir naviguer sur les sections de la recette via un menu et prévoir un lien de retour sur la page d'acceuil
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         - La recette doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
 
