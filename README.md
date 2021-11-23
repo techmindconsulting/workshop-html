@@ -202,4 +202,3 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
     - Le formulaire doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
     
 - [Quiz]: [Cliquez ici](quiz.md)
-- <a href="#test">Test</a>
