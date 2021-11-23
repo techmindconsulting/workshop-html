@@ -28,7 +28,7 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         - La recette doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
     
-  - [Workshop 3](#workshop-4) : [Lecteur vidéo](tp-player/maquette.jpg)
+  - [Workshop 3](#workshop-3) : [Lecteur vidéo](tp-player/maquette.jpg)
     - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger [ici](tp-player)
     - Copier coller le style dans la balise <head></head> 
     ```
@@ -87,11 +87,11 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         - Je dois pouvoir voir un message d'avertissment si le format de la vidéo n'est pas supporté
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
   
- - [Workshop 3 Bis](#workshop-4-bis) : [Lecteur vidéo](tp-player/maquette.jpg)
+ - [Workshop 3 Bis](#workshop-3-bis) : [Lecteur vidéo](tp-player/maquette.jpg)
  
     - Dans le TP précédent, remplacer la video par une iframe youtube https://youtu.be/aqz-KE-bpKQ
     
-  - [Workshop 4](#workshop-5) :  [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
+  - [Workshop 4](#workshop-4) :  [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         ```
@@ -110,7 +110,7 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
           }
         </style>
         ```
-  - [Workshop 5](#workshop-6) :  [Maquette bon de commande](tp-purchase-order/maquette.pdf)
+  - [Workshop 5](#workshop-5) :  [Maquette bon de commande](tp-purchase-order/maquette.pdf)
     - Reproduire le bon de commande en HTML et voici les critères que vous devez respecter :
         - Le code du style doit être copié collé dans l'en-tête de votre document HTML
         ```
@@ -173,7 +173,7 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
             }
         </style>
         ``` 
-  - [Workshop 6](#workshop-7) : Enoncé formulaire d'inscription
+  - [Workshop 6](#workshop-6) : Enoncé formulaire d'inscription
     - Créer un formulaire d'inscription avec les champs suivants, regroupez les champs obligatoires avec la légende "Informations personnelles" et les champs non obligatoire avec la légende "Autre information"
         - Photo 
         - Mr ou Mme (obligatoire, 1 seul choix est possible)
@@ -202,3 +202,4 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
     - Le formulaire doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
     
 - [Quiz]: [Cliquez ici](quiz.md)
+- <a href="#test">Test</a>
