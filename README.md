@@ -185,7 +185,7 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         - Date de naissance  (obligatoire)
         - Téléphone (obligatoire) doit être un numéro français (aidez vous du site https://www.html5pattern.com)
         - Sports favori (liste déroulante avec plusieurs choix possible contenant les valeurs ci dessous avec la création de deux groupes d'options) :
-           - Sport individuel
+           - Sport collectif
                 - Football
                 - Basket
                 - Handball
