@@ -203,13 +203,13 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
     
   - [Workshop ](#workshop-7) : Lettre
 
-Maquette : https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-update.png
-Texte à intégrer https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-text.txt
-- Les cinq acronymes/abréviations dans le corps du texte de la lettre seront marqués pour permettre leur développement.
-- Les six indices/exposants seront balisés de manière appropriée.
-- Les symboles « degré », « plus grand que » , « multiplier » seront marqués avec les références d'entités voulues.
-- Deux emplacements nécessitent un hyperlien ; ajoutez les liens appropriés avec des intitulés. Pour l'emplacement sur lequel le lien pointe, utilisez simplement http://example.com
-- La citation et la devise de l'université doivent être marquées avec les éléments appropriés.
-- Aucun code CSS doit être utilisé
-- Le document doit être valide W3C
-- La page doit être déployé sur https://www.netlify.com/
+    - Maquette : https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-update.png
+    - Texte à intégrer https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-text.txt
+        - Les cinq acronymes/abréviations dans le corps du texte de la lettre seront marqués pour permettre leur développement.
+        - Les six indices/exposants seront balisés de manière appropriée.
+        - Les symboles « degré », « plus grand que » , « multiplier » seront marqués avec les références d'entités voulues.
+        - Deux emplacements nécessitent un hyperlien ; ajoutez les liens appropriés avec des intitulés. Pour l'emplacement sur lequel le lien pointe, utilisez simplement http://example.com
+        - La citation et la devise de l'université doivent être marquées avec les éléments appropriés.
+        - Aucun code CSS doit être utilisé
+        - Le document doit être valide W3C
+        - La page doit être déployé sur https://www.netlify.com/
