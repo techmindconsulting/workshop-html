@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Premier épisode du dessin animé Big Bug Bunny">
-        <title>Episode 1 Big Bug Bunny </title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Premier épisode du dessin animé Big Bug Bunny" />
+        <title>Episode 1 Big Bug Bunny</title>
         <style>
             * {
                 margin: 0;
                 padding: 0;
+                box-sizing: border-box;
             }
+            
             html {
                 font-family: "Roboto", sans-serif;
+            }
+            
+            body {
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+            article {
+                margin: 32px;
+                width: 640px;
+            }
+
+            aside {
+                margin-top: 16px;
+            }
+
+            aside h2 {
+                font-size: 20px;
+                margin-bottom: 16px;
             }
 
             video {
                 outline: none;
-            }
-            
-            section {
-                margin: 32px;
-                width: 640px;
             }
 
             h1 {
@@ -35,7 +54,6 @@
                 font-size: medium;
                 border-bottom: 1px solid lightgrey;
             }
-
             h2 {
                 margin-top: 8px;
                 font-size: 14px;
@@ -45,53 +63,97 @@
                 margin: 12px 0;
                 font-size: 12px;
             }
-            
-            div.description {                
+
+            div.description {
                 line-height: 1.4rem;
+            }
+
+            figure {
+                position: relative;
+                margin-bottom: 16px;
+                /*object-fit: cover;*/
+            }
+            figcaption {
+                background: rgba(0, 0, 0, 0.5);
+                color: white;
+                padding: 0.5rem 0;
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+                width: 100%;
+                height: 32px;
+            }
+            figcaption {
+                font-size: 14px;
+            }
+
+            img {
+                object-fit: cover;
             }
         </style>
     </head>
     <body>
-        <section>
-            <div id="video-player">
-                <video controls muted loop poster="images/bick_buck_bunny.png"> 
-                    <source src="videos/big_buck_bunny.mp4" type="video/mp4">
-                    <source src="videos/big_buck_bunny.ogv" type="video/ogv">
-                    <p>Désolé, votre navigateur ne prend pas en charge les vidéos HTML5. 
-                        Merci de télécharger la video sur le lien suivant 
+        <article>
+            <header>
+                <video controls muted loop poster="images/bick_buck_bunny.png">
+                    <source src="videos/big_buck_bunny.mp4" type="video/mp4" />
+                    <source src="videos/big_buck_bunny.ogv" type="video/ogv" />
+                    <p>
+                        Désolé, votre navigateur ne prend pas en charge les vidéos HTML5. Merci de télécharger la video
+                        sur le lien suivant
                         <a href="videos/big_buck_bunny.mp4">lien vidéo</a>
                     </p>
                 </video>
-            </div>
-            <div id="video-info">
-                <h1>Big Bug Bunny </h1>
-                <p>600,000 views</p>
-            </div>
-            <div id="video-description">
+                <div id="video-info">
+                    <h1>Big Bug Bunny</h1>
+                    <p>600,000 views</p>
+                </div>
+            </header>
+            <section>
                 <h2>Phillipe Fragione</h2>
                 <h3>Publié le <time datetime="2020-11-12">12 Novembre 2020</time></h3>
                 <div class="description">
-                    <p>L'intrigue suit une journée dans la vie de Big Buck Bunny, 
-                        au cours de laquelle il rencontre trois rongeurs intimidateurs: 
-                        Frank l'écureuil volant (le chef), Rinky l'écureuil roux et Gimera le chinchilla (ses acolytes). 
-                        Les rongeurs s'amusent à harceler les créatures sans défense de la forêt en leur lançant des fruits, 
-                        des noix et des pierres.
+                    <p>
+                        L'intrigue suit une journée dans la vie de Big Buck Bunny, au cours de laquelle il rencontre
+                        trois rongeurs intimidateurs: Frank l'écureuil volant (le chef), Rinky l'écureuil roux et Gimera
+                        le chinchilla (ses acolytes). Les rongeurs s'amusent à harceler les créatures sans défense de la
+                        forêt en leur lançant des fruits, des noix et des pierres.
                     </p>
-                    <p>Après que les rongeurs aient tué deux papillons avec une pomme et un rocher, puis attaqué Bunny, 
+                    <p>
+                        Après que les rongeurs aient tué deux papillons avec une pomme et un rocher, puis attaqué Bunny,
                         il met de côté sa nature douce et orchestre un plan complexe pour venger les deux papillons.
                     </p>
-                    <p>Utilisant une variété de pièges, Bunny envoie d'abord Rinky et Gimera.
-                        Frank, inconscient du sort des deux autres, 
-                        est vu décollant d'un arbre et glissant vers un lapin apparemment sans méfiance. 
-                        Une fois en l'air, Frank déclenche la dernière série de pièges de Bunny, 
-                        provoquant l'écrasement de Frank dans une branche d'arbre et 
-                        la chute dans un piège à pointes en dessous. Au dernier moment, 
-                        Frank attrape ce qu'il croit être la branche d'un petit arbre, 
-                        mais découvre que c'est juste une brindille que Bunny tient sur les pointes. 
-                        Bunny attrape Frank.
+                    <p>
+                        Utilisant une variété de pièges, Bunny envoie d'abord Rinky et Gimera. Frank, inconscient du
+                        sort des deux autres, est vu décollant d'un arbre et glissant vers un lapin apparemment sans
+                        méfiance. Une fois en l'air, Frank déclenche la dernière série de pièges de Bunny, provoquant
+                        l'écrasement de Frank dans une branche d'arbre et la chute dans un piège à pointes en dessous.
+                        Au dernier moment, Frank attrape ce qu'il croit être la branche d'un petit arbre, mais découvre
+                        que c'est juste une brindille que Bunny tient sur les pointes. Bunny attrape Frank.
                     </p>
                 </div>
-            </div>
-        </section>
+            </section>
+        </article>
+        <aside>
+            <h2>Plus de déssins animés</h2>
+            <figure>
+                <a href="">
+                    <img src="images/dbz.jpg" alt="" 
+                    width="300" height="180"/></a>
+                <figcaption>Dragon ball Super</figcaption>
+            </figure>
+            <figure>
+                <img src="images/pokemon.jpg" alt="" width="300" height="180"/>
+                <figcaption>Pokemon</figcaption>
+            </figure>
+            <figure>
+                <img src="images/fma.jpg" alt="" width="300" height="180"/>
+                <figcaption>Full metal alchemist</figcaption>
+            </figure>
+            <figure>
+                <img src="images/tsubasa.jpg" alt="" width="300" height="180"/>
+                <figcaption>Captain Tsubasa</figcaption>
+            </figure>
+        </aside>
     </body>
 </html>
