@@ -36,19 +36,37 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
             * {
                 margin: 0;
                 padding: 0;
+                box-sizing: border-box;
             }
-
+            
             html {
                 font-family: "Roboto", sans-serif;
+            }
+            
+            body {
+                display: flex;
+                flex-wrap: wrap;
+                width: 80%;
+                justify-content: center;
+                margin: 0 auto;
+            }
+
+            article {
+                margin: 32px;
+                width: 640px;
+            }
+
+            aside {
+                margin-top: 16px;
+            }
+
+            aside h2 {
+                font-size: 20px;
+                margin-bottom: 16px;
             }
 
             video {
                 outline: none;
-            }
-            
-            section {
-                margin: 32px;
-                width: 640px;
             }
 
             h1 {
@@ -64,7 +82,6 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
                 font-size: medium;
                 border-bottom: 1px solid lightgrey;
             }
-
             h2 {
                 margin-top: 8px;
                 font-size: 14px;
@@ -74,17 +91,43 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
                 margin: 12px 0;
                 font-size: 12px;
             }
-            
-            div.description {                
+
+            div.description {
                 line-height: 1.4rem;
+            }
+
+            figure {
+                position: relative;
+                margin-bottom: 16px;
+            }
+
+            figcaption {
+                background: rgba(0, 0, 0, 0.5);
+                color: white;
+                padding: 0.5rem 0;
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+                width: 100%;
+                height: 32px;
+            }
+            
+            figcaption {
+                font-size: 14px;
+            }
+
+            img {
+                object-fit: cover;
             }
         </style>
     ```
     - Voici les critères que vous devez respecter :
-        - Je dois pouvoir afficher une video qui ne démarre pas automatique.
+        - Je ne dois pas modifier le CSS
+        - Je dois pouvoir afficher une video qui ne démarre pas automatiquement
         - Je dois pouvoir voir la vignette de la vidéo
         - Je dois pouvoir gérer le format mp4 et ogg
         - Je dois pouvoir voir un message d'avertissment si le format de la vidéo n'est pas supporté
+        - Je dois pouvoir voir la barre latérale, chaque image doit être cliquable
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
   
  - [Workshop 3 Bis](#workshop-3-bis) : [Lecteur vidéo](tp-player/maquette.jpg)
