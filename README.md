@@ -217,6 +217,9 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         </style>
         ``` 
   - [Workshop 6](#workshop-6) : Enoncé formulaire d'inscription
+
+    <img src="tp-form/tp-form.jpg" alt="tp form"> 
+
     - Créer un formulaire d'inscription avec les champs suivants, regroupez les champs obligatoires avec la légende "Informations personnelles" et les champs non obligatoire avec la légende "Autre information"
         - Photo 
         - Mr ou Mme (obligatoire, 1 seul choix est possible)
