@@ -41,7 +41,9 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         - La page doit être déployé sur https://www.netlify.com/
 
   - [Workshop Galerie photo](#workshop-photo) :  [Maquette galerie photo](tp-gallery/maquette/)
-    - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger [ici](tp-gallery/)
+    - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger: 
+      - [github](tp-gallery/) ou [codesandbox](https://codesandbox.io/s/tp-galerie-draft-b340f6)
+
       - Voici les critères que vous devez respecter :
         - Je ne dois pas modifier le CSS
         - Je dois pouvoir afficher la page de galerie avec les miniatures
