@@ -9,16 +9,7 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
 2. Créer un repertoire workshop-html dans workspace
 3. Créer un dossier par workshop (Ex: C:/workspace/workshop-html/tp-cv/)
 
-  - [Workshop 1](#workshop-1) : [Maquette cv](tp-cv/maquette.png)
-    - Reproduire la maquette en HTML et voici les critères que vous devez respecter :
-        - Je dois pouvoir naviguer sur les sections du CV via un menu
-        - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
-        - Je dois pouvoir être contacter par un simple clic sur le téléphone et l'email
-        - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
-        - Le CV doit être aussi visible sur IE11
-        - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
-              
-  - [Workshop 2](#workshop-2) : [Maquette recette de cuisine](tp-recipe/maquette.pdf)
+  - [Workshop Recette](#workshop-recette) : [Maquette recette de cuisine](tp-recipe/maquette.pdf)
     1. Concevoir une page d'accueil avec un titre et les liens suivants :
         - Accueil
         - Voir la recette (doit avoir un lien sur la maquette HTML voir partie 2)
@@ -27,8 +18,25 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         - Je dois pouvoir naviguer sur les sections de la recette via un menu et prévoir un lien de retour sur la page d'acceuil
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         - La recette doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
-    
-  - [Workshop 3](#workshop-3) : [Lecteur vidéo](tp-player/maquette.jpg)
+
+  - [Workshop CV](#workshop-cv) : [Maquette cv](tp-cv/maquette.png)
+    - Reproduire la maquette en HTML et voici les critères que vous devez respecter :
+        - Je dois pouvoir naviguer sur les sections du CV via un menu
+        - Je dois pouvoir télécharger le CV au format pdf (mettre le cv pdf en lien de téléchargement)
+        - Je dois pouvoir être contacter par un simple clic sur le téléphone et l'email
+        - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
+        - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
+
+  - [Workshop Galerie photo] (#workshop-photo) :  [Maquette cv](tp-cv/galerie.png)
+    - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger [ici](tp-gallery/maquette/)
+      - Voici les critères que vous devez respecter :
+        - Je ne dois pas modifier le CSS
+        - Je dois pouvoir afficher la page de galerie avec les miniatures
+        - Je dois pouvoir afficher chacune des photos de la galerie en cliquant sur l'une des miniatures
+        - Je dois pouvoir naviguer à travers la galerie pour voir chacune des photos à l'aide du menu
+        - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
+
+  - [Workshop Lecteur](#workshop-lecteur) : [Lecteur vidéo](tp-player/maquette.jpg)
     - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger [ici](tp-player)
     - Copier coller le style dans la balise <head></head> 
     ```
@@ -130,11 +138,12 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         - Je dois pouvoir voir la barre latérale, chaque image doit être cliquable
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
   
- - [Workshop 3 Bis](#workshop-3-bis) : [Lecteur vidéo](tp-player/maquette.jpg)
+  - [Workshop Lecteur iframe](#workshop-lecteur-iframe) : [Lecteur vidéo](tp-player/maquette.jpg)
  
     - Dans le TP précédent, remplacer la video par une iframe youtube https://youtu.be/aqz-KE-bpKQ
     
-  - [Workshop 4](#workshop-4) :  [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
+  - [Workshop Tableau simple](#workshop-tableau-simple) :  [Maquette tableau des médailles](tp-medal-ranking/maquette.png)
+
     - Reproduire la maquette en HTML et voici les critères que vous devez respecter : 
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         ```
@@ -153,7 +162,8 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
           }
         </style>
         ```
-  - [Workshop 5](#workshop-5) :  [Maquette bon de commande](tp-purchase-order/maquette.pdf)
+  
+  - [Workshop Tableau avancé](#workshop-tableau-avance) :  [Maquette bon de commande](tp-purchase-order/maquette.pdf)
     - Reproduire le bon de commande en HTML et voici les critères que vous devez respecter :
         - Le code du style doit être copié collé dans l'en-tête de votre document HTML
         ```
@@ -216,7 +226,8 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
             }
         </style>
         ``` 
-  - [Workshop 6](#workshop-6) : Enoncé formulaire d'inscription
+  
+  - [Workshop Formualaire](#workshop-formulaire) : Enoncé formulaire d'inscription
 
     <img src="tp-form/tp-form.jpg" alt="tp form"> 
 
@@ -247,7 +258,7 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
     - Ce formulaire doit comporter un bouton d'envoi et de reinitialisation
     - Le formulaire doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
     
-  - [Workshop ](#workshop-7) : Lettre
+  - [Workshop Lettre](#workshop-lettre) : Lettre
 
     - Maquette : https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-update.png
     - Texte à intégrer https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-text.txt
@@ -259,3 +270,4 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         - Aucun code CSS doit être utilisé
         - Le document doit être valide W3C
         - La page doit être déployé sur https://www.netlify.com/
+

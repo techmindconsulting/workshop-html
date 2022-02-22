@@ -41,7 +41,7 @@ nav a {
     margin: 0 1rem;
 }
 
-main {
+main, header, section, div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
