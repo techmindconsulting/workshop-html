@@ -46,8 +46,8 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
 
       - Voici les critères que vous devez respecter :
         - Je ne dois pas modifier le CSS
-        - Je dois pouvoir afficher la page de galerie avec les miniatures
-        - Je dois pouvoir afficher chacune des photos de la galerie en cliquant sur l'une des miniatures
+        - Je dois pouvoir afficher la page de galerie avec les miniatures, chaque miniature doit avoir une largeur de 400 pixel et une hauteur de 266 pixel
+        - Je dois pouvoir afficher chacune des photos avec une largeur de 900 pixel et une hauteur de 600 pixel de la galerie en cliquant sur l'une des miniatures
         - Je dois pouvoir naviguer à travers la galerie pour voir chacune des photos à l'aide du menu
         - Le document doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
 
