@@ -27,7 +27,20 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
         - Le CV doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
         - Le CV doit avoir une favicon (en pièce jointe) et une description exploitable par les moteur de recherche
 
-  - [Workshop Galerie photo] (#workshop-photo) :  [Maquette galerie photo](tp-gallery/maquette/)
+  - [Workshop Lettre](#workshop-lettre) : Lettre
+
+    - Maquette : https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-update.png
+    - Texte à intégrer https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-text.txt
+        - Les cinq acronymes/abréviations dans le corps du texte de la lettre seront marqués pour permettre leur développement.
+        - Les six indices/exposants seront balisés de manière appropriée.
+        - Les symboles « degré », « plus grand que » , « multiplier » seront marqués avec les références d'entités voulues.
+        - Deux emplacements nécessitent un hyperlien ; ajoutez les liens appropriés avec des intitulés. Pour l'emplacement sur lequel le lien pointe, utilisez simplement http://example.com
+        - La citation et la devise de l'université doivent être marquées avec les éléments appropriés.
+        - Aucun code CSS doit être utilisé
+        - Le document doit être valide W3C
+        - La page doit être déployé sur https://www.netlify.com/
+
+  - [Workshop Galerie photo](#workshop-photo) :  [Maquette galerie photo](tp-gallery/maquette/)
     - Reproduire la maquette en HTML, tous les éléments dont vous avez besoin sont à télécharger [ici](tp-gallery/)
       - Voici les critères que vous devez respecter :
         - Je ne dois pas modifier le CSS
@@ -258,16 +271,5 @@ Tous vos TP(s) doivent être dans le repertoire workshop comme ceci : **C:/works
     - Ce formulaire doit comporter un bouton d'envoi et de reinitialisation
     - Le formulaire doit être valide W3C [validateur HTML W3C] (https://validator.w3.org/)
     
-  - [Workshop Lettre](#workshop-lettre) : Lettre
-
-    - Maquette : https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-update.png
-    - Texte à intégrer https://raw.githubusercontent.com/techmindconsulting/learning-area/main/html/introduction-to-html/marking-up-a-letter-start/letter-text.txt
-        - Les cinq acronymes/abréviations dans le corps du texte de la lettre seront marqués pour permettre leur développement.
-        - Les six indices/exposants seront balisés de manière appropriée.
-        - Les symboles « degré », « plus grand que » , « multiplier » seront marqués avec les références d'entités voulues.
-        - Deux emplacements nécessitent un hyperlien ; ajoutez les liens appropriés avec des intitulés. Pour l'emplacement sur lequel le lien pointe, utilisez simplement http://example.com
-        - La citation et la devise de l'université doivent être marquées avec les éléments appropriés.
-        - Aucun code CSS doit être utilisé
-        - Le document doit être valide W3C
-        - La page doit être déployé sur https://www.netlify.com/
+ 
 
